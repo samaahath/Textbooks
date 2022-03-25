@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bookview" >
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/parentlayout"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:theme="@style/ThemeOverlay.MySwitchCompat"
+            android:checked="true"
+            android:text="View"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <ImageButton
+        android:id="@+id/btnprev"
+        android:layout_width="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/switch1"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/previous"
+        android:paddingBottom="5dp"
+        android:contentDescription="TODO" />
+    <ImageButton
+        android:id="@+id/btnnext"
+        android:layout_toEndOf="@id/btnprev"
+        android:layout_width="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/next"
+        android:paddingBottom="5dp"
+        android:contentDescription="descr" />
+
+
+        <EditText
+            android:id="@+id/edtcurrentpage"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Go to page"
+            android:layout_toEndOf="@id/btnnext"
+            android:layout_marginEnd="5dp"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btnprev"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.github.barteksc.pdfviewer.PDFView>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:id="@+id/layoutspinner"
+        android:orientation="vertical" >
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:theme="@style/ProgressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Textbooks</string>
+    <string name="nointernet">No internet connection, click to try again.</string>
+    <string name="Loading">Loading</string>
+    <string name="noitems">There are no books in this grade!</string>
+    <string name="loginmail">Username</string>
+    <string name="loginpass">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="textbooks">Text Books</string>
+    <string name="nomoreitems">no more items to load!</string>
+</resources>

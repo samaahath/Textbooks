@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outerparentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booksbygrade">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <TextView
+        android:id="@+id/txtunavailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noitems"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/parentlayout"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <GridView
+                        android:id="@+id/booklist"
+                        android:numColumns="2"
+                        android:gravity="center"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                    </GridView>
+
+                </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@color/verylightgray"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textView3"
+                android:layout_toStartOf="@+id/textView3">
+            </ProgressBar>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loading"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView3" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:id="@+id/layoutspinner"
+        android:orientation="vertical" >
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:theme="@style/ProgressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/emptylayout"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/nointernet" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android apps/Textbooks/Bookviewer/app/src/main/res/layout/activity_booksbygrade.xml" value="0.11770833333333333" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/activity_booksbygrade.xml" value="0.1" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/activity_bookview.xml" value="0.20520833333333333" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/bookslistview.xml" value="0.1" />
+        <entry key="..\:/Bookviewer/app/src/main/res/layout/classlistview.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-land/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/activity_booksbygrade.xml" value="0.16929611650485438" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/activity_bookview.xml" value="0.16929611650485438" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/activity_main.xml" value="0.19478155339805825" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/bookslistview.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/classlistview.xml" value="0.19478155339805825" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/login.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-large/toolbar_main.xml" value="0.16929611650485438" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout-w800dp-h1280dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/activity_booksbygrade.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/activity_bookview.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/activity_login.xml" value="0.8" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/bookslistview.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/classlistview.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/layout/toolbar_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/Ubaidulla/Downloads/Bookviewer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12962962962962962" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
