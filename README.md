@@ -1,5 +1,5 @@
 # Textbooks
-Book viewer created for learning
+PDF viewer created for learning
 
 Username: User
 
